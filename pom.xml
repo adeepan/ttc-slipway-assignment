@@ -5,7 +5,7 @@
   <artifactId>DemoDevOpsApp</artifactId>
   <packaging>war</packaging>
   <version>2.1</version>
-  <name>DemoApp DevOps Webapp</name>
+  <name>Slipway DemoApp</name>
   <url>http://maven.apache.org</url>
     <dependencies>
         <dependency>

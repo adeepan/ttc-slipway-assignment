@@ -12,14 +12,14 @@ mvn -f pom.xml clean install
 
 ## Assessment - 1
 
-- Write a multi-stage __Dockerfile__ to build the application.
-- Install __Jenkins__ using __Shell Script__ or any other script like __Ansible__.
+- Write a __multi-stage Dockerfile__ to build the application.
+- Install __Jenkins__ using __Shell Script__ or any other chosen script (eg: __Ansible__).
 - Create Jenkinsfile that will contain the following __stages__ :-
      - SCM Checkout
      - Docker Build and TAG
      - Docker Push to public [dockerhub](https://hub.docker.com/)
+- Create an account in this [public sonar](https://sonarcloud.io/explore/projects) and run the __vulnerability scan__ in this server using the Jenkins Server (expectation - Integrate SonarQube with Jenkins)
 - Install __Minikube in the Azure VM__, Configure __Nginx__ Ingress Controller, Create a __manifest__ with Kind deployment, with a replicaset of 3pods in it and deploy the docker container to the minikube and make it accessible __from the public URL__.
-- Create an account in this [public sonar](https://sonarcloud.io/explore/projects) and run the __vulnerability scan__ in this server.
 
 
 ## Assessment - 2

@@ -13,7 +13,7 @@ mvn -f pom.xml clean install
 ## To Do
 
 - Write a multi-stage __Dockerfile__ to build the application.
-- Create a Free-Tier Machine using __Terraform__ in __AWS__.
+- Write a __Terraform script__ to create a machine in Azure (__terraform plan__ should be sufficient)(get the required details from the team)
 - Install __Jenkins__ using __Shell Script__ or any other script like __Ansible__.
 - Create Jenkinsfile that will contain the following __stages__ :-
      - SCM Checkout
@@ -28,10 +28,11 @@ mvn -f pom.xml clean install
 ## Expected FILES
 1. Dockerfile
 2. Terraform Script [.tf]
-3. Shell Script [.sh] or any other chosen script.
-4. Jenkinsfile [Groovy]
-5. k8s manifest file [yaml]
-6. Snapshot of the following - 
+3. Terraform Plan Console Output
+4. Shell Script [.sh] or any other chosen script.
+5. Jenkinsfile [Groovy]
+6. k8s manifest file [yaml]
+7. Snapshot of the following - 
      - Jenkinsfile Stages
      - URL of running container output
      - Snapshot of Sonar Project along with the project URL
@@ -45,5 +46,5 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 [Trimble](https://www.trimble.com/)
 
 ## NOTE
-All the resources created or used will be only free-tier. Trimble is not responsible for any cost incurred during the process of the assignment. No reimbursements entertained.  
+The VM's or any related resources will be create by Trimble. Candidate is not expected to create any resources and even if done, Trimble will not be responsible for any charges incurred for the same.   
 

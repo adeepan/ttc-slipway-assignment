@@ -13,7 +13,7 @@ mvn -f pom.xml clean install
 ## Assessment - 1
 
 - Write a __multi-stage Dockerfile__ to build the application.
-- Install __Jenkins__ using __Shell Script__ or any other chosen script (eg: __Ansible__).
+- Install __Jenkins__ using __Shell Script__ or any other chosen script.
 - Create Jenkinsfile that will contain the following __stages__ :-
      - SCM Checkout
      - Docker Build and TAG

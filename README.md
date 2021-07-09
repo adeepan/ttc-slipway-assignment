@@ -23,7 +23,7 @@ mvn -f pom.xml clean install
 
 
 ## Assessment - 2
-- Write a __Terraform script__ to create a __virtual machine__ in Azure using __terraform modules__, use Generate random secret for the password (terraform plan should be sufficient) (get the required details from the team)
+- Write a __Terraform script__ to create a __virtual machine__ in Azure using __terraform modules__, Integrate that with Azure AD for RBAC Login (terraform plan should be sufficient) (get the required details from the team)
 
 
 ## Expected FILES

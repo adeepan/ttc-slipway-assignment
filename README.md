@@ -1,6 +1,6 @@
-# Slipway Assignment
+# TTC Assignment
 
-Slipway Platform Interview Assignment and Skill Testing
+TTC Platform Interview Assignment and Skill Testing
 
 ## Project Type - JAVA
 

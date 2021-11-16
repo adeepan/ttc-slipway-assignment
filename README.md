@@ -1,4 +1,4 @@
-# TTC Assignment
+# TTC Slipway Platform Assignment
 
 TTC Platform Interview Assignment and Skill Testing
 
@@ -13,7 +13,13 @@ mvn -f pom.xml clean install
 ## Assessment - 1
 
 - Write a __multi-stage Dockerfile__ to build the application.
-- Install __Jenkins__ using __Shell Script__ or any other chosen script.
+- Develop a __Shell Script__ that consumes parameters prefixed with "tcx-" (eg: "tcx-abc,tcx-def,tcx-xyz,.."). Write the inputs to a text file without "tcx-" prefix. (eg: "
+abc
+def
+xyz
+")
+- Write a cron job that will list the top 2 CPU/Memory Consuming processes and kill the same.
+- Install __Jenkins__ using any configuration management tool or manually.
 - Create Jenkinsfile that will contain the following __stages__ :-
      - SCM Checkout
      - Docker Build and TAG
@@ -23,20 +29,23 @@ mvn -f pom.xml clean install
 
 
 ## Assessment - 2
-- Write a __Terraform script__ to create a __virtual machine__ in Azure using __terraform modules__, Integrate that with Azure AD for RBAC Login (terraform plan should be sufficient) (get the required details from the team)
+
+- Write a __Terraform script__ to create a __virtual machine__ in Azure using __terraform modules__. 
+- Integrate that with Azure AD for RBAC Login (terraform plan should be sufficient) (get the required details from the team)
 
 
 ## Expected FILES
 1. Dockerfile
-2. Shell Script [.sh] or any other chosen script.
-3. Jenkinsfile [Groovy]
-4. k8s manifest file [yaml]
-5. Snapshot of the following - 
+2. Shell Script [.sh].
+3. Cron Job added in the machine.
+4. Jenkinsfile [Groovy]
+5. k8s manifest file [yaml]
+6. Snapshot of the following - 
      - Jenkinsfile Stages
      - Snapshot of Sonar Project along with the project URL
-5. URL of running container output from Minikube
-6. Terraform Script [.tf]
-7. Terraform Plan Console Output
+7. URL of running container output from Minikube
+8. Terraform Script [.tf]
+9. Terraform Plan Console Output
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.

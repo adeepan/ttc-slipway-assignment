@@ -6,13 +6,9 @@ TTC Platform Interview Assignment and Skill Testing
 
 Build Tool Maven [maven](https://maven.apache.org/) to build the application.
 
-```bash
-mvn -f pom.xml clean install
-```
+## Docker - 
 
-1. ## Docker - Build a multistage Dockerfile for the above application and run the web application using docker
-
-- Write a __multi-stage Dockerfile__ to build the application.
+- Build a multistage Dockerfile for the above application and run the web application using docker
 
 ## Bash Scripting / CI-CD
 

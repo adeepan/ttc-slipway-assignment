@@ -10,7 +10,7 @@ Build Tool Maven [maven](https://maven.apache.org/) to build the application.
 mvn -f pom.xml clean install
 ```
 
-## Docker
+1. ## Docker - Build a multistage Dockerfile for the above application and run the web application using docker
 
 - Write a __multi-stage Dockerfile__ to build the application.
 
@@ -22,12 +22,6 @@ def
 xyz
 ")
 - Write a cron job that will list the top 2 CPU/Memory Consuming processes and kill the same.
-- Install __Jenkins__ using any configuration management tool or manually.
-- Create Jenkinsfile that will contain the following __stages__ :-
-     - SCM Checkout
-     - Docker Build and TAG
-     - Docker Push to public [dockerhub](https://hub.docker.com/)
-- Create an account in this [public sonar](https://sonarcloud.io/explore/projects) and run the __vulnerability scan__ in this server using the Jenkins Server (expectation - Integrate SonarQube with Jenkins)
 
 
 ## Terraform
